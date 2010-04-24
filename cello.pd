@@ -1,0 +1,11 @@
+#N canvas 1169 437 450 300 10;
+#X obj 204 82 adc~;
+#X obj 202 146 dac~;
+#X obj 42 27 osc~ 440;
+#X obj 130 115 bonk~;
+#X obj 96 154 print;
+#X text -58 88 bonk ça sert a repérer les attaques;
+#X connect 0 0 1 1;
+#X connect 0 0 1 0;
+#X connect 0 0 3 0;
+#X connect 3 0 4 0;

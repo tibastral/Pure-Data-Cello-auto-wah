@@ -1,0 +1,25 @@
+#N canvas 924 111 1557 1057 36;
+#X obj -211 -46 adc~;
+#X obj -184 442 dac~;
+#X obj 12 234 nbx 5 14 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10
+-262144 -1 -1 499 256;
+#X obj 4 163 nbx 5 14 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10
+-262144 -1 -1 393 256;
+#X obj -135 228 nbx 5 14 -1e+37 1e+37 0 0 empty empty empty 0 -8 0
+10 -262144 -1 -1 4 256;
+#X obj 90 235 nbx 5 14 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 10
+-262144 -1 -1 3 256;
+#X obj -182 283 my_whawha~;
+#X obj -153 32 bonk~;
+#X obj -149 106 rampe_evenmentielle;
+#X obj -72 200 *~;
+#X connect 0 0 6 0;
+#X connect 0 0 7 0;
+#X connect 2 0 6 3;
+#X connect 3 0 9 1;
+#X connect 4 0 6 1;
+#X connect 5 0 6 4;
+#X connect 6 0 1 0;
+#X connect 7 0 8 0;
+#X connect 8 0 9 0;
+#X connect 9 0 6 2;
